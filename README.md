@@ -2,19 +2,19 @@
 
 ## Commands
 
-> Compile myprog.asm code to myprog.obj
+> Compile **myprog.asm** code to **myprog.obj**
 >
 >
 >```C:\> masm myprog```
 >
 
-> Compile myprog.obj code to myprog.exe
+> Compile **myprog.obj** code to **myprog.exe**
 >
 >
 >```C:\> link myprog```
 >
 
-> Execute myprog.exe
+> Execute **myprog.exe**
 >
 >
 >```C:\> myprog```
