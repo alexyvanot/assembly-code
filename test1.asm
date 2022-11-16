@@ -19,8 +19,10 @@ myprog: ; debut de la zone instructions
 	mov AH,02h  ; O2h = fonction putchar DOS
 	mov DL,'A'  ; code ASCII du char en sortie
 	int 21h
+
 	mov DL,'S'  ; code ASCII du char en sortie
 	int 21h
+
 	mov DL,'M'  ; code ASCII du char en sortie
 	int 21h
 
